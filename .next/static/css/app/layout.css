@@ -871,7 +871,7 @@ video {
 }
 .bg-\[\#121212\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(18 18 18 / var(--tw-bg-opacity));
+  background-color: black !important;
 }
 .bg-\[\#181818\] {
   --tw-bg-opacity: 1;
@@ -944,6 +944,9 @@ video {
 .p-4 {
   padding: 1rem;
 }
+.p-\[3rem\] {
+  padding: 3rem;
+}
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -1003,6 +1006,14 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+.px-\[3rem\] {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.px-\[\] {
+  padding-left: ;
+  padding-right: ;
 }
 .pl-2 {
   padding-left: 0.5rem;
