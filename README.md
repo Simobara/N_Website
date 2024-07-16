@@ -1,6 +1,6 @@
 <a name="top"></a>
 
-# Quizzler - A Quiz App
+# Website - My portfolio in NextJs
 
 ## Badges
 

@@ -25,13 +25,13 @@ const HeroSection = () => {
               sequence={[
               "Simone", 
               3000, 
-        "Web Developer", 
-        3000, 
-        "Mobile Developer", 
-        3000, 
-        "UI/UX Designer", 
-        3000,
-          ]}
+              "Web Developer", 
+              3000, 
+              "Mobile Developer", 
+              3000, 
+              "UI/UX Designer", 
+              3000,
+            ]}
             wrapper="span"
             speed={50} // Slower typing speed for a smoother effect
             deletionSpeed={30} // Speed of deletion effect
