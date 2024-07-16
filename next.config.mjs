@@ -1,11 +1,12 @@
-// next.config.mjs
-import withFonts from 'next-fonts';
-
-/** @type {import('next').NextConfig} */
-const nextConfig = withFonts({
-  webpack(config, options) {
+// next.config.js
+module.exports = {
+  webpack: (config) => {
+    config.resolve.fallback = {
+      ...config.resolve.fallback,
+      fs: false,
+      path: false,
+      os: false,
+    };
     return config;
   },
-});
-
-export default nextConfig;
+};
