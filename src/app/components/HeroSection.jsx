@@ -69,15 +69,16 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="w-[50px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
-            <Image
-              src={Face}
-              alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
-              height={300}
-            />
-          </div>
+          <div className="w-[50px] h-[250px] sm:w-[100px] sm:h-[300px] md:w-[200px] md:h-[350px] lg:w-[300px] lg:h-[400px] xl:w-[400px] xl:h-[400px] relative">
+  <Image
+    src={Face}
+    alt="hero image"
+    className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+    width={300}
+    height={300}
+  />
+</div>
+
         </motion.div>
       </div>
     </section>
