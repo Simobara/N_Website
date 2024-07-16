@@ -86,7 +86,7 @@ const projectsData = [
     image: "/images/projects/9.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/Simobara/F_Xylophone",
-    previewUrl: "https://sb2410fxylophone.netlify.app/",
+    previewUrl: "",
   },
 ];
 
