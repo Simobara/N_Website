@@ -4,11 +4,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaWhatsapp } from 'react-icons/fa';
 import { TypeAnimation } from "react-type-animation";
-import Face from '../../../public/images/MYFACE.png';
+import Face1 from '../../../public/images/MYFACE1.png';
 
 const HeroSection = () => {
   return (
-    <section className=" px-[3rem] bg-black lg:py-16">
+    <section className="bg-black px-[3rem] bg-black lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -69,16 +69,15 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="w-[15rem] h-[15rem] sm:w-[15rem] sm:h-[15rem] md:w-[15rem] md:h-[15rem] lg:w-[15rem] lg:h-[15rem] xl:w-[15rem] xl:h-[15rem] relative">
-  <Image
-    src={Face}
-    alt="hero image"
-    className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-    width={300}
-    height={300}
-  />
-</div>
-
+          <div className="rounded-full bg-black w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+            <Image
+              src={Face1}
+              alt="hero image"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              width={300}
+              height={300}
+            />
+          </div>
         </motion.div>
       </div>
     </section>
