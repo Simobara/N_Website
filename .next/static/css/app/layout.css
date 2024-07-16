@@ -871,7 +871,7 @@ video {
 }
 .bg-\[\#121212\] {
   --tw-bg-opacity: 1;
-  background-color: black !important;
+  background-color: rgb(18 18 18 / var(--tw-bg-opacity));
 }
 .bg-\[\#181818\] {
   --tw-bg-opacity: 1;

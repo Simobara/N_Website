@@ -1,7 +1,9 @@
 <a name="top"></a>
+
 # Quizzler - A Quiz App
 
 ## Badges
+
 ![Test](https://img.shields.io/badge/Test-passing-brightgreen)
 ![Build](https://img.shields.io/badge/Build-passing-brightgreen)
 ![CI](https://img.shields.io/badge/CI-passing-brightgreen?logo=github)
@@ -13,112 +15,55 @@
 ![Stars](https://img.shields.io/github/stars/Simobara/N_website?style=social)
 ![Forks](https://img.shields.io/github/forks/Simobara/N_website?style=social)
 
-
 ## Demo
-![Finished App](Quizzler.gif)
+
+![Finished App](Website.png)
 
 ---
+
 ## Getting Started
 
 ## Prerequisites
+
   ```sh
-  Flutter SDK
-  Dart SDK
+  Node.js
+  npm (Node Package Manager) or yarn
   ```
 
 ## Installation
+
 ```sh
   git clone https://github.com/Simobara/N_website.git
   cd N_website
-  flutter pub get
-  flutter run
+  npm install
+  npm run dev
 ```
 
 ## Dependencies
+
 ```sh
-Dart SDK 3.4.3
-Flutter SDK 3.22.2
-quizzler 1.0.0+1
-├── cupertino_icons 1.0.8
-├── flutter 0.0.0
-│   ├── characters 1.3.0
-│   ├── collection 1.18.0
-│   ├── material_color_utilities 0.8.0
-│   │   └── collection...
-│   ├── meta 1.12.0
-│   ├── sky_engine 0.0.99
-│   └── vector_math 2.1.4
-├── flutter_test 0.0.0
-│   ├── async 2.11.0
-│   │   ├── collection...
-│   │   └── meta...
-│   ├── boolean_selector 2.1.1
-│   │   ├── source_span...
-│   │   └── string_scanner...
-│   ├── clock 1.1.1
-│   ├── fake_async 1.3.1
-│   │   ├── clock...
-│   │   └── collection...
-│   ├── leak_tracker 10.0.4
-│   │   ├── clock...
-│   │   ├── collection...
-│   │   ├── meta...
-│   │   ├── path...
-│   │   └── vm_service...
-│   ├── leak_tracker_flutter_testing 3.0.3
-│   │   ├── flutter...
-│   │   ├── leak_tracker...
-│   │   ├── leak_tracker_testing...
-│   │   ├── matcher...
-│   │   └── meta...
-│   ├── leak_tracker_testing 3.0.1
-│   │   ├── leak_tracker...
-│   │   ├── matcher...
-│   │   └── meta...
-│   ├── matcher 0.12.16+1
-│   │   ├── async...
-│   │   ├── meta...
-│   │   ├── stack_trace...
-│   │   ├── term_glyph...
-│   │   └── test_api...
-│   ├── path 1.9.0
-│   ├── source_span 1.10.0
-│   │   ├── collection...
-│   │   ├── path...
-│   │   └── term_glyph...
-│   ├── stack_trace 1.11.1
-│   │   └── path...
-│   ├── stream_channel 2.1.2
-│   │   └── async...
-│   ├── string_scanner 1.2.0
-│   │   └── source_span...
-│   ├── term_glyph 1.2.1
-│   ├── test_api 0.7.0
-│   │   ├── async...
-│   │   ├── boolean_selector...
-│   │   ├── collection...
-│   │   ├── meta...
-│   │   ├── source_span...
-│   │   ├── stack_trace...
-│   │   ├── stream_channel...
-│   │   ├── string_scanner...
-│   │   └── term_glyph...
-│   ├── vm_service 14.2.1
-│   ├── characters...
-│   ├── collection...
-│   ├── flutter...
-│   ├── material_color_utilities...
-│   ├── meta...
-│   └── vector_math...
-└── rflutter_alert 2.0.7
-    └── flutter...
+portfolio-website@0.1.0 /Users/0ilbaroneutente/Desktop/progportf
+├── @heroicons/react@2.1.5
+├── autoprefixer@10.4.15
+├── eslint-config-next@13.4.15
+├── eslint@8.47.0
+├── framer-motion@10.18.0
+├── next@14.2.5
+├── postcss@8.4.39
+├── react-animated-numbers@0.16.0
+├── react-countup@6.5.3
+├── react-dom@18.2.0
+├── react-icons@5.2.1
+├── react-type-animation@3.2.0
+├── react@18.2.0
+├── resend@1.1.0
+└── tailwindcss@3.3.3
 ```
 
-
 ## License
-This project is licensed under the MIT License. 
-See the LICENSE file for more details.
 
+This project is licensed under the MIT License.
+See the LICENSE file for more details.
 
 ## Link
 
@@ -126,8 +71,6 @@ See the LICENSE file for more details.
 - ![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=social&logo=github) - [click here](https://github.com/Simobara)
 - ![YouTube](https://img.shields.io/youtube/views/dQw4w9WgXcQ?style=social) - [click here](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-
-
 ##
-[⤴️ top](#top)
 
+[⤴️ top](#top)
