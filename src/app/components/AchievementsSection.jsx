@@ -5,13 +5,13 @@ import CountUp from "react-countup";
 const achievementsList = [
   {
     metric: "Projects",
-    value: 60,
+    value: 70,
     postfix: "+",
   },
   {
     prefix: "~",
     metric: "Customers",
-    value: 400,
+    value: 150,
   },
   {
     metric: "Certifications",
