@@ -7,6 +7,7 @@ import LinkedinIcon from "../../../public/linkedin-icon.svg";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -16,7 +17,7 @@ const EmailSection = () => {
       message: e.target.message.value,
     };
     const JSONdata = JSON.stringify(data);
-    const endpoint = "/api/send";
+    const endpoint = "/api/send";  // Assicurati che l'endpoint sia corretto
 
     const options = {
       method: "POST",
@@ -26,14 +27,28 @@ const EmailSection = () => {
       body: JSONdata,
     };
 
-    const response = await fetch(endpoint, options);
-    const resData = await response.json();
+    try {
+      const response = await fetch(endpoint, options);
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      const resData = await response.json();
 
-    if (response.status === 200) {
-      console.log("Message sent.");
-      setEmailSubmitted(true);
-    } else {
-      console.log("Error sending message:", resData.message);
+      if (response.status === 200) {
+        console.log("Message sent.");
+        setEmailSubmitted(true);
+        setErrorMessage("");
+        e.target.reset(); // Reset the form fields
+        setTimeout(() => {
+          setEmailSubmitted(false);
+        }, 2000); // Hide the message after 2 seconds
+      } else {
+        console.log("Error sending message:", resData.message);
+        setErrorMessage(resData.message || "Error sending message");
+      }
+    } catch (error) {
+      console.error("Failed to send message:", error);
+      setErrorMessage("Failed to send message. Please try again later.");
     }
   };
 
@@ -76,7 +91,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder="name@google.com"
               />
             </div>
             <div className="mb-6">
@@ -115,6 +130,9 @@ const EmailSection = () => {
             >
               Send Message
             </button>
+            {errorMessage && (
+              <p className="text-red-500 text-sm mt-2">{errorMessage}</p>
+            )}
           </form>
         )}
       </div>
@@ -123,4 +141,3 @@ const EmailSection = () => {
 };
 
 export default EmailSection;
-``

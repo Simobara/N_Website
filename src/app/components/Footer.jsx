@@ -12,7 +12,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer className="bg-black footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white bg-black">
+    <footer className="bg-black footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white">
       <div className="container p-12 flex justify-between items-center">
         <span>
           <Image src={Logo} alt="Logo" width={50} height={50} />

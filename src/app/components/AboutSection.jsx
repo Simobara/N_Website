@@ -15,6 +15,8 @@ const TAB_DATA = [
         <li>Sequelize</li>
         <li>JavaScript</li>
         <li>React</li>
+        <li>Next</li>
+        <li>Flutter</li>
       </ul>
     ),
   },
@@ -33,8 +35,10 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+         <li>Udemy: The Complete JavaScript Course 2023: From Zero to Expert!</li>
+         <li>Udemy: React - The Complete Guide (incl Hooks, React Router, Redux)</li>
+         <li>Cibertec,Lima: Approfondimento Java 11</li>
+         <li>Udemy: The Complete Front-End Web Development Course</li>
       </ul>
     ),
   },
