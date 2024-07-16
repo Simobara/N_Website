@@ -1,5 +1,4 @@
-// next.config.js
-module.exports = {
+export default {
   webpack: (config) => {
     config.resolve.fallback = {
       ...config.resolve.fallback,
