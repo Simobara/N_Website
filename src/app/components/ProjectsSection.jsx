@@ -51,6 +51,15 @@ const projectsData = [
     gitUrl: "https://github.com/kamranahmedse/developer-roadmap",
     previewUrl: "https://roadmap.sh/r/full-stack-web-development-with-mern-stack-1hfvo",
   },
+  {
+    id: 10,
+    title: "MyWebSite",
+    description: "Project 10 ",
+    image: "/images/projects/10.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Simobara/N_Website",
+    previewUrl: "https://wsite-five.vercel.app/",
+  },
   //? ------------------------------------------------- MOBILE
   {
     id: 6,
@@ -105,7 +114,7 @@ const ProjectsSection = () => {
 
   const cardVariants = {
     initial: { y: 50, opacity: 0 },
-    animate: { y: 0, opacity: 1 },
+    animate: { y: 0, opacity: 1 },1
   };
 
   return (
