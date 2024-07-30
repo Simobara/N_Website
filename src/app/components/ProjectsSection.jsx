@@ -5,9 +5,18 @@ import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 
 const projectsData = [
-  //? ------------------------------------------------- REACT NEXT 
+  //? ------------------------------------------------- REACT NEXT
+  {
+    id: 1,
+    title: "MyWebSite",
+    description: "Project 1 ",
+    image: "/images/projects/1.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Simobara/N_Website",
+    previewUrl: "https://wsite-five.vercel.app/",
+  },
   // {
-  //   id: 1,
+  //   id: 1a,
   //   title: "React Portfolio Website",
   //   description: "Project 1 ",
   //   image: "/images/projects/1.png",
@@ -49,17 +58,10 @@ const projectsData = [
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/kamranahmedse/developer-roadmap",
-    previewUrl: "https://roadmap.sh/r/full-stack-web-development-with-mern-stack-1hfvo",
+    previewUrl:
+      "https://roadmap.sh/r/full-stack-web-development-with-mern-stack-1hfvo",
   },
-  {
-    id: 10,
-    title: "MyWebSite",
-    description: "Project 10 ",
-    image: "/images/projects/10.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Simobara/N_Website",
-    previewUrl: "https://wsite-five.vercel.app/",
-  },
+
   //? ------------------------------------------------- MOBILE
   {
     id: 6,
@@ -115,8 +117,7 @@ const ProjectsSection = () => {
   const cardVariants = {
     initial: { y: 50, opacity: 0 },
     animate: { y: 0, opacity: 1 },
-  }
-
+  };
 
   return (
     <section id="projects">
