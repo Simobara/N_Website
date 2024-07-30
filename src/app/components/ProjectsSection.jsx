@@ -6,15 +6,15 @@ import ProjectTag from "./ProjectTag";
 
 const projectsData = [
   //? ------------------------------------------------- REACT NEXT 
-  {
-    id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 ",
-    image: "/images/projects/1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+  // {
+  //   id: 1,
+  //   title: "React Portfolio Website",
+  //   description: "Project 1 ",
+  //   image: "/images/projects/1.png",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "/",
+  //   previewUrl: "/",
+  // },
   {
     id: 2,
     title: "Potography Portfolio Website",
