@@ -114,8 +114,9 @@ const ProjectsSection = () => {
 
   const cardVariants = {
     initial: { y: 50, opacity: 0 },
-    animate: { y: 0, opacity: 1 },1
-  };
+    animate: { y: 0, opacity: 1 },
+  }
+
 
   return (
     <section id="projects">
