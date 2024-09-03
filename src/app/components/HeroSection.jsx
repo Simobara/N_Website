@@ -41,9 +41,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl mr-[4rem]">
-            Sono un professionista del web con esperienza nello sviluppo di
-            applicazioni web e mobili. Amo creare esperienze utente uniche e
-            intuitive.
+          I am a web professional with experience in developing web and mobile applications. I love creating unique and intuitive user experiences.
           </p>
           <div className="flex">
             <Link
