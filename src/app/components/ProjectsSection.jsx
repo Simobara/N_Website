@@ -39,8 +39,8 @@ const projectsData = [
     description: "Project 3 ",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/Simobara/ITA_SerieA",
-    previewUrl: "https://ita-serie-a.vercel.app/",
+    gitUrl: "/",
+    previewUrl: "/",
   },
   {
     id: 4,

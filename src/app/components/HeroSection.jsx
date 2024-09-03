@@ -2,13 +2,13 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import Face1 from '../../../public/images/MYFACE1.png';
+import Face1 from "../../../public/images/MYFACE1.png";
 
 const HeroSection = () => {
   return (
-    <section className="bg-black px-[3rem] bg-black lg:py-16">
+    <section className="bg-black px-[3rem] lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -23,25 +23,27 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-              "Simone", 
-              3000, 
-              "Web Developer", 
-              3000, 
-              "Mobile Developer", 
-              3000, 
-              "UI/UX Designer", 
-              3000,
-            ]}
-            wrapper="span"
-            speed={50} // Slower typing speed for a smoother effect
-            deletionSpeed={30} // Speed of deletion effect
-            repeat={Infinity}
-            cursor={true} // Show a blinking cursor
-            className="animated-text" // Add a class for custom styling
-          />
+                "Simone",
+                3000,
+                "Web Dev",
+                3000,
+                "Mobile Dev",
+                3000,
+                "UI/UX Pro",
+                3000,
+              ]}
+              wrapper="span"
+              speed={50} // Slower typing speed for a smoother effect
+              deletionSpeed={30} // Speed of deletion effect
+              repeat={Infinity}
+              cursor={true} // Show a blinking cursor
+              className="animated-text" // Add a class for custom styling
+            />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl mr-[4rem]">
-            Sono un professionista del web con esperienza nello sviluppo di applicazioni web e mobili. Amo creare esperienze utente uniche e intuitive.
+            Sono un professionista del web con esperienza nello sviluppo di
+            applicazioni web e mobili. Amo creare esperienze utente uniche e
+            intuitive.
           </p>
           <div className="flex">
             <Link
@@ -69,7 +71,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-black w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full bg-black w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative ">
             <Image
               src={Face1}
               alt="hero image"
